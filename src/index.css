@@ -11,6 +11,18 @@ html, body{
   height: 100%;
   width: 100%;
 }
-body{
-  background-color: #1b1b1b;
+
+.SideBar-Elems{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.NoteContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
